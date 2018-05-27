@@ -1,0 +1,39 @@
+header {
+  background-color: #EC7543;
+  color: #EBEDF3
+}
+
+.container-header {
+  width: 90%;
+  margin: 0 auto
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav a {
+  margin: 0 10px 10px 0
+}
+
+.logo-header {
+  font-size: 31px;
+  height: 17px
+}
+
+@media (max-width: 480px) {
+  nav {
+    justify-content: center
+  }
+
+  nav a {
+    font-size: 15px;
+    margin: 0 5px 5px 0
+  }
+}

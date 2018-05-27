@@ -15,3 +15,6 @@ The popular news site Hacker News (HN) run by YCombinator provides interesting l
 ## Dependencies and some fancy packages used in this project:
 
 * React - https://reactjs.org
+* react-icons - https://gorangajic.github.io/react-icons
+* propTypes - https://www.npmjs.com/package/prop-types
+* react-loading - https://www.npmjs.com/package/react-loading
