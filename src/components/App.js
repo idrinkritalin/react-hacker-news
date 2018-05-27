@@ -7,8 +7,8 @@ import News from './News'
 
 class App extends Component {
   state = {
-    stories : [],
-    isLoaded : false
+    stories: [],
+    isLoaded: false
   }
 
   componentDidMount() {
@@ -23,7 +23,7 @@ class App extends Component {
       return fetch(url).then(d => d.json())
     }))
     .then(promises => Promise.all(promises))
-    .then(stories => this.setState({stories, isLoaded : true}))
+    .then(stories => this.setState({stories, isLoaded: true}))
   }
 
   render() {

@@ -25,7 +25,7 @@ const Header = (props) => (
         <a href="#">new |</a>
         <a href="#">comments |</a>
         <a href="#">show |</a>
-        <a href="#">ask | </a>
+        <a href="#">ask |</a>
         <a href="#">jobs |</a>
         <a href="#">submit</a>
       </nav>
